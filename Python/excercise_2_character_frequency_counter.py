@@ -13,6 +13,14 @@
 # - In case of Empty input string, returns None
 # - Space characters are missing from output
 
+input_string="egy kettő három négy öt hat hét nyolc kilenc tíz"
 
 def get_frequency(input_string:str) -> dict:
-    pass
+    if input_string == None or input_string==""
+        return None
+    
+    frequency={}
+
+    for i in input_string:
+        if i!=" ":
+            frequency[i]=
